@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Module_Privilege_TestNG">
+        <classes>
+            <class name="privilegesTests.GiveAndTakeViewPrivilegeTests">
+                <methods>
+                    <include name="loginPageTest1"/>
+                    <include name="profileSelectionPageTest1"/>
+                    <include name="mainPageTest1"/>
+                    <include name="privilegesManagesPageTest1"/>
+                    <include name="employeePageTest1"/>
+                    <include name="privilegesPageTest"/>
+                    <include name="signAndSendModalWinTest"/>
+                    <include name="employeePageTest2"/>
+                    <include name="privilegesManagesPageTest2"/>
+                    <include name="employeePageTest3"/>
+                    <include name="privilegesPageTest2"/>
+                    <include name="signAndSendModalWinTest2"/>
+                    <include name="employeePageTest4"/>
+                    <include name="assertExpectedWithActual"/>
+                    <include name="postCondition"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
