@@ -12,7 +12,7 @@ public class GiveAndTakeViewPrivilegeTests extends BaseTest {
     @Test //log in with sender credentials
     public void loginPageTest1() throws IOException {
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-        loginPage.loginPageMethodsDirector();
+        loginPage.loginPageMethodsDirectorSmartBytes();
     }
     @Test //select sender TIN
     public void profileSelectionPageTest1(){

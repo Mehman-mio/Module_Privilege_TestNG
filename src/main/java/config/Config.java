@@ -14,16 +14,22 @@ public class Config {
     public static String getUrl() throws IOException {
         return getPropertyObject().getProperty("url");
     }
-    public static String getPhoneDirector() throws IOException {
-        return getPropertyObject().getProperty("loginPhoneDirector");
+    public static String getPhoneDirectorCybernet() throws IOException {
+        return getPropertyObject().getProperty("loginPhoneDirectorCybernet");
     }
-    public static String getIdDirector() throws IOException {
-        return getPropertyObject().getProperty("loginIdDirector");
+    public static String getIdDirectorCybernet() throws IOException {
+        return getPropertyObject().getProperty("loginIdDirectorCybernet");
     }
     public static String getEmployeeFin() throws IOException {
         return getPropertyObject().getProperty("employeeFin");
     }
     public static String getEmployeeIdCardNumber() throws IOException {
         return getPropertyObject().getProperty("employeeIdCardNumber");
+    }
+    public static String getPhoneDirectorSmartBytes() throws IOException {
+        return getPropertyObject().getProperty("loginPhoneDirectorSmartBytes");
+    }
+    public static String getIdDirectorSmartBytes() throws IOException {
+        return getPropertyObject().getProperty("loginIdDirectorSmartBytes");
     }
 }

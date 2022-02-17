@@ -38,10 +38,17 @@ public class LoginPage {
     public void clickLoginButton() {
         loginButton.click();
     }
-    public void loginPageMethodsDirector() throws IOException{
+    public void loginPageMethodsDirectorCybernet() throws IOException{
         clickAsanImzaTab();
-        inputPhone(Config.getPhoneDirector());
-        inputId(Config.getIdDirector());
+        inputPhone(Config.getPhoneDirectorCybernet());
+        inputId(Config.getIdDirectorCybernet());
+        setMockToggleButton();
+        clickLoginButton();
+    }
+    public void loginPageMethodsDirectorSmartBytes() throws IOException{
+        clickAsanImzaTab();
+        inputPhone(Config.getPhoneDirectorSmartBytes());
+        inputId(Config.getIdDirectorSmartBytes());
         setMockToggleButton();
         clickLoginButton();
     }

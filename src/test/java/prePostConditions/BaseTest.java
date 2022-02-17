@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import utils.TestUtils;
 import java.io.IOException;
-
+import java.util.concurrent.TimeUnit;
 
 
 public class BaseTest {
